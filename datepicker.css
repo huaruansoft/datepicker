@@ -1,0 +1,16 @@
+﻿.datepicker {
+  display: none;
+  left: 50%;
+  position:absolute;
+  top: 50%;
+  background-color: #eee;
+  z-index: 9999;box-shadow: 0 0 8px #aaa;border: 3px solid #ccc;padding: 6px;
+}
+.datepicker table{border: 1px solid #ddd;border-collapse: collapse;margin: 0;}
+.datepicker td{background-color: #fff;width: 2.2em;height: 2em;border: 1px solid #ccc;padding: 0;font-size: 14px;text-align: center;cursor: pointer;color: #555;}
+.datepicker td:hover{background-color: #ddd;}
+.datepicker th{border: none;background: none;cursor: default;color: #555;font-weight: normal;}
+.datepicker tr.toolbar{padding: 0;}
+.datepicker tr.toolbar th{cursor: pointer;}
+.datepicker tr.toolbar th:hover{background-color: #ddd;}
+.datepicker tr.week th{background-color: #ddd;}
